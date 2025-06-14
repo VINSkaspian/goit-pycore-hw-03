@@ -3,13 +3,11 @@ from datetime import datetime
 def get_days_from_today(date):
     """
     Calculates the number of days between a given date and the current date.
-
     Parameters:
     date (str): A date in the format 'YYYY-MM-DD', for example, '2020-10-09'.
-    
     Returns:
-    int: The number of days between the current date and the given date. Negative if the date is in the future.
-    
+    int: The number of days between the current date and the given date. 
+    Negative if the date is in the future.
     Exceptions:
     ValueError: If the input date is in an invalid format.
     """     
